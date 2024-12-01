@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>CompactStorage</AssemblyName>
+    <AssemblyName>CompactStorageFixed</AssemblyName>
     <Product>CompactStorage</Product>
     <Description>Store cards more compactly</Description>
     <Version>1.1.1</Version>
@@ -59,7 +59,7 @@
   </ItemGroup>
   <PropertyGroup>
     <GAME_STEAM_ID>1948280</GAME_STEAM_ID>
-    <MOD_NAME>CompactStorage</MOD_NAME>
+    <MOD_NAME>CompactStorageFixed</MOD_NAME>
   </PropertyGroup>
   <Choose>
     <When Condition="$(OS) == 'Unix' OR $(OS) == 'OSX'">

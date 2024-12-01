@@ -89,7 +89,8 @@ namespace CompactStorage
                 );
                 Value -= card.Value;
                 StoredValue = Value;
-                WorldManager.instance.StackSend(card.MyGameCard, null);
+                UnityEngine.Vector3 outputDirection = new UnityEngine.Vector3(0, 0, 0);
+                WorldManager.instance.StackSend(card.MyGameCard, outputDirection);
                 UpdateDescription();
             }
             base.Clicked();

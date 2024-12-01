@@ -1,0 +1,5 @@
+<Project>
+    <PropertyGroup>
+        <GAME_DATA_PATH>C:/Program Files (x86)/Steam/steamapps/common/Stacklands/Stacklands_Data</GAME_DATA_PATH>
+    </PropertyGroup>
+</Project>
